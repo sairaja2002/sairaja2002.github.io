@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Games', sans-serif;
+  }
+
+.container{
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+.name{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.btn1{
+  background-color: #ff33cc;
+  padding: 10px;
+  width: 20rem;
+  height: 5rem;
+  border: none;
+  max-width: 100%;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.btn1:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 10px 5px rgba(15, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#count{
+  background-color: #D2122E;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 10px;
+  max-width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+}
+#exampleInputEmail1{
+  width: 25rem;
+  font-size: 20px;
+}
+#box{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.restart{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.btn2{
+  background-color: #FFFF00;
+  padding: 10px;
+  width: 20rem;
+  height: 5rem;
+  border: none;
+  max-width: 100%;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.btn2:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 10px 5px rgba(15, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.block{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #69399c 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myBtn{
+  background-color: #F40009;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  max-width: 100%;
+  padding: 5px;
+}
+#level{
+  background-color: #FF00FF;
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  max-width: 100%;
+  padding: 5px;
+}
+#level:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 10px 5px rgba(15, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#myBtn:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 10px 5px rgba(15, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#bar{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#demo2{
+  font-size: 25px;
+}
